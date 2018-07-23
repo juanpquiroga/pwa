@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="utf-8" />
+    <title>Curso PWA - Juan Pablo Quiroga</title>
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+
+    <!-- Fuente sans serif -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+
+    <!-- Estilos de la aplicacion -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <!-- Color de la aplicacion -->
+    <meta name="theme-color" content="#FB314E"/>
+
+    <!-- Optimizacion para mobile -->
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    
+    <!-- Meta etiquetas PWA para Apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="img/favicon.png" />
+    <link rel="apple-touch-statup-image" href="img/favicon.png" />
+
+    <!-- Configuracion general para PWA -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Librerias externas -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Librerias internas -->
+    <script src="main.js"></script>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div id="logo">
+                <h1>Juan Pablo Quiroga Web</h1>            
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#main-header">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </div> <!-- end menu -->
+        </div> <!-- end container -->
+    </header>
+    <div class="clearfix"></div>
+    <div id="slider">
+        <div class="container">
+            <h2>Desarrollador web y profesor</h2>
+        </div>
+    </div>
+    <div id="servicios">
+        <div class="container">
+            <h2 class="subheader">Servicios</h2>
+            <div class="servicio">
+                <img src="img/1.png" alt="Servicio">
+                <h3>Desarrollo Web</h3>
+                <p>
+                    Ofrezco servicios de desarrollo web moderno con las mejores tecnologías y
+                    plataformas web.
+                </p>
+            </div>
+            <div class="servicio">
+                <img src="img/2.png" alt="Serviio">
+                <h3>Diseño Web</h3>
+                <p>
+                    Diseño de sitios y aplcaciones web moderno, limpio y aractivo para tus clientes.
+                </p>
+            </div>
+            <div class="servicio">
+                <img src="img/3.png" alt="Serviio">
+                <h3>Mentoría</h3>
+                <p>
+                Puedo ser tu mentor o profesor para enseñarte desarrollo y programación web moderna.
+                </p>
+            </div> 
+        </div>
+    </div> <!-- end servicios -->
+    <div class="clearfix"></div>
+    <div id="videos">
+        <div class="container">
+            <h2 class="subheader">Videos</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/J08zrkhfNf4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <p>
+                    Aprende a desarrollar aplicaciones web modernas de forma práctica y desde cero con Angular 6, el sucesor de AngularJS.
+                </p>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Gz4yRVEMONY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <p>
+                    Descubre cómo generar una aplicación con dashboard, menú de navegación y grid de datos ejecutando tres sencillos comandos en el CLI de Angular 6.
+                </p>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/t5nmDuTov5U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <p>
+                    En este video te doy 5 consejos muy utiles para aprender a programar desde cero. Cosas que a mi me hubiera gustado saber cuando empecé en el mundo de la programación.
+                </p>
+            </div>
+        </div> 
+    </div> <!-- end videos -->
+
+    <div class="clearfix"></div>
+    <footer id="footer">
+        <div class="container">
+            <h2 class="subheader">Contacto</h2>
+            <p>Enviame un mensaje en cualquiera de las redes sociales</p>
+            <ul id="networks">
+                <li><a href="#"><img src="img/twitter.png" alt="Twitter"/></a></li>
+                <li><a href="#"><img src="img/instagram.png" alt="instagram"/></a></li>
+                <li><a href="#"><img src="img/facebook.png" alt="facebook"/></a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+</body>
+</html>
